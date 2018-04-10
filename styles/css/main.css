@@ -31,19 +31,6 @@ body {
 }
 
 /* line 24, E:/Project/Weather App/styles/sass/main.sass */
-#container h1 {
-  position: absolute;
-  top: 7px;
-  right: 0;
-  left: 0;
-  margin: 0 auto;
-  font-weight: bold;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-/* line 34, E:/Project/Weather App/styles/sass/main.sass */
 #container:before {
   content: "";
   background: rgba(0, 0, 0, 0.4);
@@ -55,43 +42,43 @@ body {
   z-index: -1;
 }
 
-/* line 43, E:/Project/Weather App/styles/sass/main.sass */
+/* line 33, E:/Project/Weather App/styles/sass/main.sass */
 #container.rainbg {
   background: url(../../img/rain.png);
   background-size: cover;
 }
 
-/* line 46, E:/Project/Weather App/styles/sass/main.sass */
+/* line 36, E:/Project/Weather App/styles/sass/main.sass */
 #container.drizzlebg {
   background: url(../../img/drizzle.jpg);
   background-size: cover;
 }
 
-/* line 49, E:/Project/Weather App/styles/sass/main.sass */
+/* line 39, E:/Project/Weather App/styles/sass/main.sass */
 #container.clearbg {
   background: url(../../img/clear.png);
   background-size: cover;
 }
 
-/* line 52, E:/Project/Weather App/styles/sass/main.sass */
+/* line 42, E:/Project/Weather App/styles/sass/main.sass */
 #container.cloudsbg {
   background: url(../../img/clouds.jpg);
   background-size: cover;
 }
 
-/* line 55, E:/Project/Weather App/styles/sass/main.sass */
+/* line 45, E:/Project/Weather App/styles/sass/main.sass */
 #container.thunderstormbg {
   background: url(../../img/thunderstorm.jpg);
   background-size: cover;
 }
 
-/* line 58, E:/Project/Weather App/styles/sass/main.sass */
+/* line 48, E:/Project/Weather App/styles/sass/main.sass */
 #container.snowbg {
   background: url(../../img/snow.png);
   background-size: cover;
 }
 
-/* line 62, E:/Project/Weather App/styles/sass/main.sass */
+/* line 52, E:/Project/Weather App/styles/sass/main.sass */
 #slidingbg {
   position: absolute;
   z-index: -2;
@@ -112,21 +99,21 @@ body {
   }
 }
 
-/* line 80, E:/Project/Weather App/styles/sass/main.sass */
+/* line 70, E:/Project/Weather App/styles/sass/main.sass */
 #location {
   font-size: 32px;
   margin: 0;
   font-weight: 600;
 }
 
-/* line 85, E:/Project/Weather App/styles/sass/main.sass */
+/* line 75, E:/Project/Weather App/styles/sass/main.sass */
 #weather {
   font-size: 26px;
   text-transform: capitalize;
   margin: 10px 0 0 0;
 }
 
-/* line 90, E:/Project/Weather App/styles/sass/main.sass */
+/* line 80, E:/Project/Weather App/styles/sass/main.sass */
 #wetemp {
   display: flex;
   justify-content: center;
@@ -134,7 +121,7 @@ body {
   margin: 0;
 }
 
-/* line 96, E:/Project/Weather App/styles/sass/main.sass */
+/* line 86, E:/Project/Weather App/styles/sass/main.sass */
 .icon {
   height: 150px;
   width: 150px;
@@ -143,22 +130,33 @@ body {
   left: -12px;
 }
 
-/* line 103, E:/Project/Weather App/styles/sass/main.sass */
+/* line 93, E:/Project/Weather App/styles/sass/main.sass */
 .wi {
   font-size: 80px;
   margin-right: 15px;
 }
 
-/* line 107, E:/Project/Weather App/styles/sass/main.sass */
+/* line 97, E:/Project/Weather App/styles/sass/main.sass */
 #tempwrap {
   align-self: flex-start;
   margin: 7px 0 0 -25px;
   font-size: 20px;
 }
 
-/* line 112, E:/Project/Weather App/styles/sass/main.sass */
+/* line 102, E:/Project/Weather App/styles/sass/main.sass */
 #celsius, #fahrenheit {
   cursor: pointer;
+}
+
+/* line 105, E:/Project/Weather App/styles/sass/main.sass */
+#navbar {
+  background: url(../../img/navbar.png);
+  background-repeat: no-repeat;
+  background-size: 425px;
+  height: 55px;
+  width: 425px;
+  bottom: 0;
+  position: absolute;
 }
 
 /*# sourceMappingURL=../css/main.map */
